@@ -1,0 +1,8 @@
+# >> record hashrate
+* * * * * /usr/bin/php /etc/cron.d/RECORDHashrate
+# >> record logs <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Sept 8, 2014
+*/5 * * * * /usr/bin/php /etc/cron.d/RECORDLogs
+# >> registration data
+0 * * * * /etc/cron.d/pandp_register.sh
+# >> firmware update
+0 0,3,6,9 * * *  curl -s --fail  "http://firmware.spondoolies-tech.com/release/latest?id=`cat /board_ver`" > /tmp/fw_update 
