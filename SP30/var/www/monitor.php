@@ -36,6 +36,8 @@ file_put_contents(MG_EVENTS_FILE, '');
 $json['mg_status'] = '';
 if(file_exists(MG_STATUS)) $json['mg_status'] = trim(file_get_contents(MG_STATUS));
 
+// Example Work Mode file contents for SP30: "FAN:80 VST:670 VSB:670 VMAX:750 AC_TOP:1295 AC_BOT:1330 DC_AMP:150"
+
 $wm_array = explode(' ', trim(trim(file_get_contents(MINER_WORKMODE_FILE))));
 foreach($wm_array as $key => $value) {
 	$exp_value = explode(':',$value);
