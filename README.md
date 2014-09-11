@@ -7,3 +7,5 @@ SPT MinePeon Package to log system information from SP10 or SP30 units for remot
 
 Enjoy!
 whooper
+
+If you fid the software useful and feel generous, drop some satoshis @ 1JJZFgoWMFrTTNZqFTJ1AP9fcGtTmdwMr7
