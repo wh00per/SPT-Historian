@@ -44,6 +44,6 @@ if(strlen($json)>0) {
 
 	// echo "\n>> Payload: \n".$json."\n\n"; 
 } else {
-  echo "Can't get JSON string from monitor.php ..";
+  echo "Can't get the JSON string from the logger script ..";
 }
 ?>
