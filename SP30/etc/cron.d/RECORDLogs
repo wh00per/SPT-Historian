@@ -13,7 +13,7 @@ $headers= array('Content-Type: application/json');
 // and the use of output buffers.
 
 ob_start();
-include("../../var/www/monitor.php");
+include("../../var/www/historian.php");
 $json = ob_get_clean();
 
 //
